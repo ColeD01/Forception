@@ -5,7 +5,6 @@ var alphabet = "abcdefghijklmnopqrstuvwxyz"
 function forception(people, alphabet) {
     let result = []
     for (i = 0; i < people.length; i++) {
-        // people[i].
         result.push(people[i] + ':')
 
         for (j = 0; j < alphabet.length; j++) {
